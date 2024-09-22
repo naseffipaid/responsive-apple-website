@@ -27,5 +27,6 @@ headers.click(function (e) {
     current.addClass("expanded");
   }
   current.next().slideToggle(300);
+  current.css("color", isOpen ? "#000" : "#06c");
 });
 // nati yilishal
