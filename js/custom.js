@@ -28,5 +28,6 @@ headers.click(function (e) {
   }
   current.next().slideToggle(300);
   current.css("color", isOpen ? "#000" : "#06c");
+  current.css("background-color", isOpen ? "#fff" : "#f0f0f0");
 });
 // nati yilishal
